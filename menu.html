@@ -6,16 +6,37 @@
     <meta name="description" content="Menu des recettes">
     <title>Recettes Délicieuses</title>
     <style>
+       
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #fef3bd;
+            background: #f2dfc7;
             text-align: center;
         }
         h1 {
-            color: #d32f2f;
+            color: #6e8170;
             margin: 20px 0;
+            font-family: Dancing Script, cursive;
+            font-size: 50px;
+        }
+        table {
+          background-color: #373737;
+          color: white;
+          display: block;
+          padding: 8px;
+          font-family: Cursive;
+        }
+        table a {
+          color: white;
+          text-decoration: none;
+        }
+        table a:hover {
+          color: #6e8170;
+        }
+        td {
+          border: 3px;
+          padding: 5px 20px 5px 20px;
         }
         .menu {
             display: flex;
@@ -27,23 +48,34 @@
         .menu a {
             text-decoration: none;
             color: white;
-            background: #ff7043;
+            background: #6e8170;
             padding: 15px;
             border-radius: 10px;
             font-size: 18px;
             transition: background 0.2s;
+            font-family: Comic sans MS;
         }
         .menu a:hover {
-            background: #d32f2f;
+            background: #ea9f2c;
         }
     </style>
 </head>
 <body>
+  <table border="1">
+    <tr>
+      <td><a href="cupcakes-banane-nutella.html">Menu</a></td>
+      <td><a href="cupcakes-banane-nutella.html">Entrées</a></td>
+      <td><a href="gateau_anniversaire.html">Plats</a></td>
+      <td><a href="pancakes.html">Desserts</a></td>
+      <td><a href="trouvermonsite.html,">Boissons</a></td>
+    </tr>
+  </table>
     <h1>Mes Recettes Délicieuses</h1>
     <div class="menu">
-        <a href="cupcakes-banane-nutella.html">Cupcakes Banane-Nutella</a>
-        <a href="gateau_anniversaire.html">Gâteau d'anniversaire</a>
-        <a href="pancakes.html">Pancakes</a>
+        <a href="cupcakes-banane-nutella.html">Entrées</a>
+        <a href="gateau_anniversaire.html">Plats</a>
+        <a href="pancakes.html">Desserts</a>
+        <a href="trouvermonsite.html,">Boissons</a>
     </div>
 </body>
 </html>
