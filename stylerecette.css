@@ -9,14 +9,14 @@ padding: 10px;
 font-family: Comic sans MS;
 }
 body {
-  background-color: #c29c6b;
+  background-color: #ffffff;
   color: white;
   font-family:Lucida Console, monaco, monospace;
   }
 .content {
-            max-width: 600px;
+            max-width: 900px;
             margin: 40px auto;
-            background: #ffffff;
+            background: #c29c6b;
             padding: 20px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
