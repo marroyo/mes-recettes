@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Menu des recettes">
+    <title>Recettes Délicieuses</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2dfc7;
+            text-align: center;
+        }
+        h1 {
+            color: #6e8170;
+            margin: 20px 0;
+            font-family: Dancing Script, cursive;
+            font-size: 50px;
+        }
+        table {
+          background-color: #373737;
+          color: white;
+          padding: 8px;
+          font-family: Cursive;
+          margin: 0 auto;
+          border-collapse: collapse;
+          width: 50%;
+        }
+        table a {
+          color: white;
+          text-decoration: none;
+        }
+        table a:hover {
+          color: #6e8170;
+        }
+        td {
+          border: 3px;
+          padding: 5px 20px 5px 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: 200px;
+            border: solid 5px black;
+            border-radius: 20px;
+        }
+        .image-container a:hover img {
+            opacity: 0.6;
+        }
+        .image-caption {
+            font-size: 18px;
+            font-family: Comic sans MS;
+            color: #555;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td><a href="menu.html">Menu</a></td>
+      <td><a href="entrees.html">Entrées</a></td>
+      <td><a href="plats.html">Plats</a></td>
+      <td><a href="desserts.html">Desserts</a></td>
+      <td><a href="boissons.html,">Boissons</a></td>
+    </tr>
+  </table>
+    <h1>Boissons</h1>
+    <div class="gallery">
+    <div class="image-container">
+        <a href="cupcakes-banane-nutella.html">
+            <img src="https://static.wixstatic.com/media/96a4a0_96077a4e379f42ebba4737a517f94629~mv2.png/v1/fill/w_396,h_419,al_c,lg_1,q_85,enc_avif,quality_auto/96a4a0_96077a4e379f42ebba4737a517f94629~mv2.png" alt="Image de Cupcake">
+        </a>
+        <div class="image-caption">Cupcakes Banane-Nutella</div>
+    </div>
+    <div class="image-container">
+        <a href="cupcakes-banane-nutella.html">
+            <img src="https://static.wixstatic.com/media/96a4a0_96077a4e379f42ebba4737a517f94629~mv2.png/v1/fill/w_396,h_419,al_c,lg_1,q_85,enc_avif,quality_auto/96a4a0_96077a4e379f42ebba4737a517f94629~mv2.png" alt="Image de Cupcake">
+        </a>
+        <div class="image-caption">Cupcakes Banane-Nutella</div>
+    </div>
+    </div>
+    
+</body>
+</html>
