@@ -56,3 +56,23 @@ body {
             color: #555;
             margin-top: 8px;
         }
+.menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 300px;
+            margin: 40px auto;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            background: #6e8170;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: background 0.2s;
+            font-family: Comic sans MS;
+        }
+        .menu a:hover {
+            background: #ea9f2c;
+        }
