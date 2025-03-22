@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cupcake banane Nutella</title>
+  <style>
+h1 {
+display: block;
+background-color: white;
+border-radius: 15px;
+text-align: center;
+color: black;
+margin: 50px 0 50px 0;
+padding: 10px;
+font-family: Comic sans MS;
+}
+body {
+  background-color: #c29c6b;
+  color: white;
+  font-family: American Typewriter;
+  }
+img {
+  width: 250px;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+  }
+</style>
+</head>
+<body>
+  <h1>Cupcakes Banane-Nutella</h1>
+    <img src="https://static.wixstatic.com/media/96a4a0_96077a4e379f42ebba4737a517f94629~mv2.png/v1/fill/w_396,h_419,al_c,lg_1,q_85,enc_avif,quality_auto/96a4a0_96077a4e379f42ebba4737a517f94629~mv2.png">
+  <script src="script.js"></script>
+  <p style="text-align: center; margin: 40px;"><em>Préparation : 20 min - Cuisson : 15 min</em></p>
+  <h3><u>Ingrédients</u> :</h3>
+  <ul>
+    <li>110 g de beurre</li>
+    <li>100 g de sucre</li>
+    <li>2 sachets de sucre vanillé</li>
+    <li>2 oeufs</li>
+    <li>3,5 bananes</li>
+    <li>150 g de farine</li>
+    <li>1/2 sachet de levure chimique</li>
+    <li>3 cs de lait</li>
+    <li>250 g de mscarpone</li>
+    <li>3 cs de sucre glace</li>
+    <li>Nutella</li>
+  </ul>
+  <h3><u>Préparation</u> :</h3>
+  <ol>
+    <li>Préchauffer votre four à 180°C</li>
+    <li>Dans un saladier, battre le beurre avec les sucres. Ajouter les oeufs un à un. Ajouter 2,5 bananes écrasées, la farine mélangée à la levure et le lait.</li>
+    <li>Remplir les caissettes à moitié de pâte. Ajouter 1 cc de Nutella, puis recouvrir de pâte. Enfourner 15 min.</li>
+    <li>Pendant ce temps, préparer le glaçage. Dans un saladier, battre le mascarpone et le sucre glace. Remplir la poche à douilles, puis décorer les cupcakes froids.</li>
+    <li>Décorer avec du Nutella fondu, des rondelles de bananes, des smarties, ...</li>
+  </ol>
+</body>
+</html>
